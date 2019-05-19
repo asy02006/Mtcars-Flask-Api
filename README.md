@@ -35,14 +35,14 @@ If the server is running, you will get the following output:
 
 server is up - nice job!  
 
-**3. Then use the following command to get prediction. Change the values of predictors (cyl, disp, hp, drat, wt and qsec) to get the corresponding prediction for mpg.** 
+**3. Then use the following command to get prediction. Change the values of predictors (cyl, disp, hp, drat, wt and qsec) and run the command in a terminal to get the corresponding prediction for mpg.** 
 
 `curl -H "Content-Type: application/json" -X POST -d '{"cyl":"4","disp":"108","hp":"93","drat":"3.85","wt":"2.32","qsec":"18.61"}' "http://localhost:5000/predict_price"`
 
 If it is successfully run, You will get the following output: 
 
 {  
-"predict cost": [22.799931734886403]  
+"predict mpg": [22.799931734886403]  
 }  
 
 **4. Both of the curl commands can be found in the file `curl_test.sh`.** 
