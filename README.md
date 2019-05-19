@@ -15,17 +15,17 @@ This is a flask API that returns prediction for mpg (Miles/(US) gallon) using a 
 
 If it has created the localhost server correctly, you will see the following lines:
 
-Recreating docker_flask_1 ... done
-Attaching to docker_flask_1
-flask_1  |  * Serving Flask app "server" (lazy loading)
-flask_1  |  * Environment: production
-flask_1  |    WARNING: Do not use the development server in a production environment.
-flask_1  |    Use a production WSGI server instead.
-flask_1  |  * Debug mode: on
-flask_1  |  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
-flask_1  |  * Restarting with stat
-flask_1  |  * Debugger is active!
-flask_1  |  * Debugger PIN: [Debugger PIN]
+Recreating docker_flask_1 ... done \n
+Attaching to docker_flask_1 \n
+flask_1  |  * Serving Flask app "server" (lazy loading) \n
+flask_1  |  * Environment: production \n
+flask_1  |    WARNING: Do not use the development server in a production environment. \n
+flask_1  |    Use a production WSGI server instead. \n
+flask_1  |  * Debug mode: on \n
+flask_1  |  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit) \n
+flask_1  |  * Restarting with stat \n
+flask_1  |  * Debugger is active! \n
+flask_1  |  * Debugger PIN: [Debugger PIN] \n
 
 **2. Open a new terminal and run the following command to confirm that the server is up**
 
@@ -41,9 +41,9 @@ server is up - nice job!
 
 If it is successfully run, You will get the following output: 
 
-{
-"predict cost": [22.799931734886403]
-}
+{\n
+"predict cost": [22.799931734886403]\n
+}\n
 
 **4. Both of the curl commands can be found in the file `curl_test.sh`.** 
 
