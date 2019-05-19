@@ -39,7 +39,7 @@ server is up - nice job!
 
 `curl -H "Content-Type: application/json" -X POST -d '{"cyl":"4","disp":"108","hp":"93","drat":"3.85","wt":"2.32","qsec":"18.61"}' "http://localhost:5000/predict_price"`
 
-If it is successfully run, You will get the following output: 
+If it is successfully run, you will get the following output: 
 
 {  
 "predict mpg": [22.799931734886403]  
@@ -49,4 +49,4 @@ If it is successfully run, You will get the following output:
 
 **5. To stop running the API, type `ctrl-C`.** 
 
-**6. Also, check to see if there is any docker container running using  `docker container ls` and stop them using  `docker container kill <container-name>`.** 
+**6. Check to see if there is any docker container running using  `docker container ls` and stop them running  `docker container kill <container-name>`.** 
